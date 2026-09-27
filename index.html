@@ -78,7 +78,6 @@
                 </div>
                 <h3>IT & Telecom Support</h3>
                 <p>Ensure infrastructure stability and server health through premium IT consultancy, network maintenance, and real-time fault localization and resolution.</p>
-               
             </div>
 
             <!-- 块2: 技术咨询与规划 -->
@@ -88,7 +87,6 @@
                 </div>
                 <h3>Technical Consultancy & Design Planning</h3>
                 <p>Strategic technology consultancy, system architecture design, and digital roadmap planning tailored to modernize operations and power corporate scaling.</p>
-               
             </div>
 
             <!-- 块3: 高科技硬件集采 -->
@@ -98,7 +96,6 @@
                 </div>
                 <h3>Custom IT & High-Tech Procurement</h3>
                 <p>Tailormade sourcing for IT equipment, high-tech hardware products precision-configured to match your specific business requirements and EU compliance benchmarks.</p>
-                
             </div>
         </div>
     </section>
@@ -134,10 +131,11 @@
                 <p>✉️ Email: contact@tellatech.be</p>
             </div>
             
+            <!-- 修复核心：已完美加入 name 标签属性 -->
             <form class="contact-form" action="https://formspree.io/f/xqpagypl" method="POST">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea rows="4" placeholder="Your Message or Requirements..." required></textarea>
+                <input type="text" name="Client Name" placeholder="Your Name" required>
+                <input type="email" name="_replyto" placeholder="Your Email" required>
+                <textarea name="Project Requirements" rows="4" placeholder="Your Message or Requirements..." required></textarea>
                 <button type="submit" class="submit-btn">Send Message</button>
             </form>
         </div>
